@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104523" started-at="2022-01-30T13:39:35 CET" finished-at="2022-01-30T13:41:20 CET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@19d37183]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="TestNG" duration-ms="81280" started-at="2022-01-30T13:39:35 CET" finished-at="2022-01-30T13:40:57 CET">
+      <class name="testcases.TC001_LoginWithValidCredentials">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_LoginWithValidCredentials@568bf312]" name="beforeMethod" is-config="true" duration-ms="7436" started-at="2022-01-30T13:39:36 CET" finished-at="2022-01-30T13:39:43 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:1, instance:testcases.TC001_LoginWithValidCredentials@568bf312]" name="login" duration-ms="11425" started-at="2022-01-30T13:39:43 CET" finished-at="2022-01-30T13:39:54 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_LoginWithValidCredentials@568bf312]" name="afterMethod" is-config="true" duration-ms="909" started-at="2022-01-30T13:39:54 CET" finished-at="2022-01-30T13:39:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_LoginWithValidCredentials@568bf312]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-01-30T13:40:57 CET" finished-at="2022-01-30T13:40:57 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC001_LoginWithValidCredentials -->
+      <class name="testcases.TC005_GoToCareersPageAndCheckOpeningsForTestAutomationEngineerinStockholm">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC005_GoToCareersPageAndCheckOpeningsForTestAutomationEngineerinStockholm@55a1c291]" name="beforeMethod" is-config="true" duration-ms="4307" started-at="2022-01-30T13:40:49 CET" finished-at="2022-01-30T13:40:54 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:5, instance:testcases.TC005_GoToCareersPageAndCheckOpeningsForTestAutomationEngineerinStockholm@55a1c291]" name="login" duration-ms="2142" started-at="2022-01-30T13:40:54 CET" finished-at="2022-01-30T13:40:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC005_GoToCareersPageAndCheckOpeningsForTestAutomationEngineerinStockholm@55a1c291]" name="afterMethod" is-config="true" duration-ms="816" started-at="2022-01-30T13:40:56 CET" finished-at="2022-01-30T13:40:57 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC005_GoToCareersPageAndCheckOpeningsForTestAutomationEngineerinStockholm -->
+      <class name="testcases.TC004_LoginWithInIncorrectMailFormat">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC004_LoginWithInIncorrectMailFormat@341b80b2]" name="beforeMethod" is-config="true" duration-ms="4211" started-at="2022-01-30T13:40:32 CET" finished-at="2022-01-30T13:40:36 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:3, instance:testcases.TC004_LoginWithInIncorrectMailFormat@341b80b2]" name="login" duration-ms="12263" started-at="2022-01-30T13:40:36 CET" finished-at="2022-01-30T13:40:49 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC004_LoginWithInIncorrectMailFormat@341b80b2]" name="afterMethod" is-config="true" duration-ms="821" started-at="2022-01-30T13:40:49 CET" finished-at="2022-01-30T13:40:49 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC004_LoginWithInIncorrectMailFormat -->
+      <class name="testcases.TC002_LoginWithInValidCredentials">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC002_LoginWithInValidCredentials@35083305]" name="beforeMethod" is-config="true" duration-ms="4534" started-at="2022-01-30T13:39:55 CET" finished-at="2022-01-30T13:40:00 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:2, instance:testcases.TC002_LoginWithInValidCredentials@35083305]" name="login" duration-ms="13241" started-at="2022-01-30T13:40:00 CET" finished-at="2022-01-30T13:40:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC002_LoginWithInValidCredentials@35083305]" name="afterMethod" is-config="true" duration-ms="856" started-at="2022-01-30T13:40:13 CET" finished-at="2022-01-30T13:40:14 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC002_LoginWithInValidCredentials -->
+      <class name="testcases.TC003_LoginWithInEmptyMailAndPassword">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC003_LoginWithInEmptyMailAndPassword@8e0379d]" name="beforeMethod" is-config="true" duration-ms="5257" started-at="2022-01-30T13:40:14 CET" finished-at="2022-01-30T13:40:19 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:3, instance:testcases.TC003_LoginWithInEmptyMailAndPassword@8e0379d]" name="login" duration-ms="12197" started-at="2022-01-30T13:40:19 CET" finished-at="2022-01-30T13:40:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC003_LoginWithInEmptyMailAndPassword@8e0379d]" name="afterMethod" is-config="true" duration-ms="813" started-at="2022-01-30T13:40:31 CET" finished-at="2022-01-30T13:40:32 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC003_LoginWithInEmptyMailAndPassword -->
+    </test> <!-- TestNG -->
+    <test name="Cucumber-TestNG" duration-ms="23228" started-at="2022-01-30T13:40:57 CET" finished-at="2022-01-30T13:41:20 CET">
+      <class name="testRunner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.Runner@19d37183]" name="setUpClass" is-config="true" duration-ms="218" started-at="2022-01-30T13:40:57 CET" finished-at="2022-01-30T13:40:57 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@19d37183]" name="feature" duration-ms="6750" started-at="2022-01-30T13:40:57 CET" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-01-30T13:41:04 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Got to Careers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.Runner@19d37183]" name="feature" duration-ms="16186" started-at="2022-01-30T13:41:04 CET" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-01-30T13:41:20 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Log in to Mitigram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.Runner@19d37183]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2022-01-30T13:41:20 CET" finished-at="2022-01-30T13:41:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.Runner -->
+    </test> <!-- Cucumber-TestNG -->
+  </suite> <!-- Suite -->
+</testng-results>
